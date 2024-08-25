@@ -1,11 +1,17 @@
 {
-  "name": "backend--production",
+  "name": "nodejs--backend--production",
   "version": "1.0.0",
   "description": "This is nodejs backend production",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "test" : "node test.js",
+    "start": "node index.js",
+    "prepare": "husky"
   },
   "author": "uratabhi",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "husky": "^9.1.5",
+    "lint-staged": "^15.2.9"
+  }
 }
