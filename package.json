@@ -1,0 +1,11 @@
+{
+  "name": "backend--production",
+  "version": "1.0.0",
+  "description": "This is nodejs backend production",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "uratabhi",
+  "license": "ISC"
+}
